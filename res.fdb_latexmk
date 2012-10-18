@@ -1,6 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1350519745 "/Users/angela/Dropbox/Resumes/latex/res.tex" "res.pdf" "res" 1350519745
-  "/Users/angela/Dropbox/Resumes/latex/res.tex" 1350519744 4310 4123dbbf36feae0a43c33b33e3a44f98 ""
+["pdflatex"] 1350601131 "res.tex" "res.pdf" "res" 1350601132
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -21,6 +20,7 @@
   "/usr/local/texlive/2012/texmf/web2c/texmf.cnf" 1336865692 31299 729e216d9b945005c0d4b079c0500bc9 ""
   "res.aux" 1350509152 8 a94a2480d3289e625eea47cd1b285758 ""
   "res.cls" 1350509179 25066 8ec1e15ab4c53340bc92863668c7be49 ""
+  "res.tex" 1350601122 4619 66daac1ef5e33ce196d4dc3872856517 ""
   (generated)
   "res.pdf"
   "res.log"

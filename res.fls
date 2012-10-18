@@ -2,7 +2,7 @@ PWD /Users/angela/Dropbox/Resumes/latex
 INPUT /usr/local/texlive/2012/texmf.cnf
 INPUT /usr/local/texlive/2012/texmf/web2c/texmf.cnf
 INPUT /usr/local/texlive/2012/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/angela/Dropbox/Resumes/latex/res.tex
+INPUT res.tex
 OUTPUT res.log
 INPUT res.cls
 INPUT res.cls
