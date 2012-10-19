@@ -7,28 +7,34 @@
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \usepackage{fancyhdr}  % use this package to get a 2 line header
 \renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\setlength{\headheight}{18pt} % allow room for 2-line header
+
 \setlength{\headsep}{12pt}  % space between header and text
-\setlength{\headheight}{24pt} % allow room for 2-line header
-\setlength{\footskip}{10pt}
+\pagestyle{fancy}     % set pagestyle for document
+\chead{}  % the head is empty
+\cfoot{}                                     % the foot is empty
+\setlength{\topmargin}{-.75in}
+\setlength{\textheight}{11in}
+\setlength{\textwidth}{7.25in}
+\setlength{\evensidemargin}{-.5in}
+\setlength{\oddsidemargin}{-.5in} % not necessary if just one page but might be useful later
 
 \pagestyle{fancy}     % set pagestyle for document
 \topmargin=-0.75in % start text higher on the page
 \begin{document}
-\thispagestyle{empty} % this page has no header
-\name{ANGELA RIZHEL NAVARRO}% the \\[12pt] adds a blank line after name
+
+\name{ANGELA RIZHEL NAVARRO \\[8pt]}% the \\[??pt] adds a blank line after name
 
 \begin{resume}
 \centerline{516 Glenrock Avenue \#402, Los Angeles, CA 90024}
-\centerline{(818) 281-8409 | angela.rizhel@gmail.com }
+\centerline{(818) 281-8409 $|$ angela.rizhel@gmail.com }
 
 \section{EDUCATION}
-\vspace{6pt}
-{\sl University of California, Los Angeles} \hfill Henry Samueli School of Engineering \\
-Computer Science, B.S. \hfill Expected Graduation June 2013
+\vspace{8pt}
+{\sl{University of California}, Los Angeles \hfill Henry Samueli School of Engineering} \\
+B.S. in Computer Science \hfill Expected Graduation: June 2013
 
 \begin{itemize} \itemsep -2pt % reduce space between items
-  \item 3.4/4.0 Cumulative GPA and 3.5/4.0 Major GPA
+  \item 3.5/4.0 Major GPA and 3.4/4.0 Cumulative GPA
   \item Dean's Honors List: Winter 2011, Fall 2011
 \end{itemize} \vspace{-6pt}
 
@@ -37,44 +43,44 @@ Computer Science, B.S. \hfill Expected Graduation June 2013
   {\sl Facebook} \hfill Menlo Park, CA \\
   Software Engineer Intern \hfill June 2012 - September 2012
 
- \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Shipped a new ``Create Event'' view for touchscreen devices on mobile web
-   \item Created and shipped a new ``Create Event'' view for mobile devices lacking AJAX and CSS
- \end{itemize} \vspace{-6pt}
+   \begin{itemize} \itemsep -2pt % reduce space between items
+     \item Finalized and shipped a new ``Create Event'' view for touchscreen devices on mobile web
+     \item Created and shipped a ``Create Event'' view for mobile devices lacking AJAX and CSS capabilities (feature phones)
+   \end{itemize} \vspace{-6pt}
 
  {\sl Bluebeam Software} \hfill Pasadena, CA \\
  Software Engineer Intern \hfill July 2011 - September 2011
 
- \begin{itemize} \itemsep -2pt
-   \item  Implemented uploading and downloading PDF files in an iPad application using the Dropbox API
-   \item Created a WCF REST Service using C\# in the Microsoft Visual Studio IDE
-   \item Prototyped downloading and uploading large PDF files between the REST Service and iPad application
- \end{itemize} \vspace{-6pt}
+   \begin{itemize} \itemsep -2pt
+   \item Integrated the iOS Dropbox API into Bluebeam's iPad application, allowing file upload and download through Dropbox accounts
+   \item Created a WCF REST Service using C\# in Microsoft Visual Studio 2010 to complement the above
+   \item Prototyped a client application to extensively test transferring large (100MB+) PDF files between the REST Service and iPad application
+   \end{itemize} \vspace{-6pt}
 
  Software Engineer Intern \hfill    June 2010 - September 2010
 
- \begin{itemize} \itemsep -2pt
-   \item  Built a web application for displaying large-scale PDF files as a grid of images on an HTML5 canvas
-   \item Implemented panning, rotating, and zooming into the PDF files using Javascript, HTML, and CSS
- \end{itemize} \vspace{-6pt}
+   \begin{itemize} \itemsep -2pt
+   \item Built a web application for displaying large-scale PDF files as a grid of images on an HTML5 canvas
+   \item Implemented panning, rotating, and zooming into the PDF files using Javascript, HTML5, and CSS
+	\item Optimized zooming by loading higher-resolution images on-demand, specific to the user's viewport
+   \end{itemize} \vspace{-6pt}
 
 \section{PERSONAL PROJECTS}
-\vspace{6pt}
+\vspace{8pt}
 
- {\sl Classyfy} \hfill Los Angeles, CA\\
-Facebook Hackathon \hfill April 2012
+ {\sl Classyfy} \hfill Facebook Hackathon 2012
    \begin{itemize} \itemsep -2pt
-     \item  Classyfy won Facebook's UCLA Hackathon and is available at \underline{http://apps.facebook.com/classyfy}
-     \item Classyfy is a Facebook application that detects red party cups in a user'
-     s photo album, replaces them with an amusing image, and ranks everyone tagged in the album based on the number of red cups
-     \item Built the front-end using HTML, CSS, JavaScript and jQuery
-  \end{itemize} \vspace{-6pt}
+   \item{Won first place at Facebook's 24-hour UCLA Hackathon by developing an original Facebook application in a team of four}
+   \item Classyfy detects red party cups in a user's photo album and replaces them with an amusing image using OpenCV and Redis, then cheekily classifies people in the album from ``classy'' to ``trashy'' based on the number of red cups
+    \item Designed and developed the front-end of the application using HTML, CSS, JavaScript and jQuery, in addition to presenting a demo to other teams and judges
+	\item{Classyfy is live at \tt{http://apps.facebook.com/classyfy}}
+    \end{itemize} \vspace{-6pt}
 
- {\sl Qrsvp.us} \hfill Los Angeles, CA \\
-Yahoo! Hackathon \hfill October 2011
+ {\sl QRSVP.us} \hfill Yahoo! Hackathon 2011
   \begin{itemize} \itemsep -2pt
-    \item  With three friends, hacked a web application for event hosts in 24 hours for Yahoo's UCLA Hackathon
-    \item Sped up front-end development by using Twitter bootstrap and Y! UI for calendar widgets
+  \item Received an honorable mention at Yahoo's 24-hour UCLA hackathon by developing a web application in a team of four
+  \item QRSVP.us provides event organizers with a tool for creating events and generating unique tickets via QR codes, providing a useful extension to current event creation tools available the average person
+  \item Developed the front-end of the application by using Twitter bootstrap and Y! UI for calendar widgets
   \end{itemize} \vspace{-6pt}
 
 \section{ACTIVITIES}
@@ -96,7 +102,7 @@ Yahoo! Hackathon \hfill October 2011
 \vspace{0.2in}
   \begin{itemize}  \itemsep -2pt
     \item Object-Oriented Programming in C++,
-    \item  Git in a UNIX environment
+    \item Proficient with Git in a UNIX environment
     \item Experience with XHP, HTML/CSS, and JavaScript
   \end{itemize}
 \end{resume}

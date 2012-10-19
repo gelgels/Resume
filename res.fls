@@ -12,8 +12,6 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT res.aux
-INPUT res.aux
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -22,6 +20,7 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 OUTPUT res.pdf
 INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -29,3 +28,4 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
